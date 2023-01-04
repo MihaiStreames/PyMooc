@@ -5,7 +5,7 @@ def intersection(v, w):
         if len(ix) >= min_ - s:
             break
         for e in range(s + len(ix), min_):
-            t = v[s:e+1]
+            t = v[s:e + 1]
             if t not in w:
                 break
             if len(t) >= len(ix):

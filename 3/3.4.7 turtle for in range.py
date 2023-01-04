@@ -1,12 +1,12 @@
 import turtle
 from math import gcd
 
-#cote = int(input("Nombre de cotes? "))
+# cote = int(input("Nombre de cotes? "))
 
-#for i in range(cote):
+# for i in range(cote):
 #    turtle.forward(100)
 #    turtle.left(360/cote)
-#turtle.done
+# turtle.done
 
 b = int(input("Nombre de branches? "))
 inc = (b - 1) // 2

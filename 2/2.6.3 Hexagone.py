@@ -1,7 +1,7 @@
 from math import pi, sin, cos
 import turtle
 
-#Calcul
+# Calcul
 
 long = float(input())
 
@@ -12,9 +12,9 @@ print(long * cos((3 * pi) / 3), long * sin(0))
 print(long * cos((-2 * pi) / 3), long * sin(-pi / 3))
 print(long * cos((-1 * pi) / 3), long * sin(-pi / 3))
 
-#exit()
+# exit()
 
-#Dessin
+# Dessin
 
 turtle.begin_fill()
 turtle.forward(100)
